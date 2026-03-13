@@ -271,7 +271,7 @@ function AIButton({ label, onClick, loading, className = "btn btn-primary" }) {
 
 // — CONNECT CHANNEL
 function PageConnect({ connected, setConnected, channelInfo, setChannelInfo }) {
-  const [apiKey, setApiKey] = useState(() => localStorage.getItem("tt_apikey") || "AlzaSyBpriF7Ncmtw0qfFSh6lG6Sa170QXLXaJA");
+  const [apiKey, setApiKey] = useState(() => localStorage.getItem("tt_apikey") || "AIzaSyA9wDyx5MJKoqfgcqEolJyuuMalHHHDypo");
   const [channelId, setChannelId] = useState(() => localStorage.getItem("tt_channelid") || "UCtnTosDIBsRWTUMrmXsEYj");
   const [oauthId, setOauthId] = useState(() => localStorage.getItem("tt_oauthid") || "");
   const [channelName, setChannelName] = useState(() => localStorage.getItem("tt_channelname") || "ThinkTrap");
